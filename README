@@ -1,0 +1,14 @@
+Silkroad SOCKS v4/v5 Proxy Tester
+
+This code will test any SOCKS v4/v5 proxy and give you a list of working servers.
+
+Add server list to proxy.txt. Servers should be listed as follows:
+hostname:port
+ip:port
+etc.
+
+The working servers will be written to working.txt.
+
+Requirements:
+Visual Studio 2010
+Boost
