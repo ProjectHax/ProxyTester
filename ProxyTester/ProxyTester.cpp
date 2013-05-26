@@ -4,7 +4,7 @@
 #include <fstream>
 #include <string>
 
-#include "stream_utility.h"
+#include "Stream/stream_utility.h"
 
 #include <boost/asio.hpp>
 #include <boost/thread.hpp>

@@ -2,9 +2,18 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="ProxyTester.cpp" />
-    <ClCompile Include="stream_utility.cpp" />
+    <ClCompile Include="stream_utility.cpp">
+      <Filter>Stream</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stream_utility.h" />
+    <Filter Include="Stream">
+      <UniqueIdentifier>{7b30b023-26db-4ba0-bad8-02646f53b803}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stream_utility.h">
+      <Filter>Stream</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
